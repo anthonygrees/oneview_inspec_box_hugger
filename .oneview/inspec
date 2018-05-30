@@ -1,8 +1,8 @@
 #
-# It actualy uses this file /Users/anthonyrees/.oneview ! ! !
+# It actualy uses this file /Users/<yourname>/.oneview ! ! !
 #
 
-url: https://10.0.0.123
-user: administartor
-password: Good4bye!
+url: https://oneview_url
+user: <your_user>
+password: <your_passsword>
 api_version: 300
