@@ -26,6 +26,10 @@ password: <your_passsword>
 api_version: 300
 ```
 
+## Video Demo
+
+[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://youtu.be/zjqCyRchq_k)
+
 ## License and Author
 
 * Author:: Anthony Rees <anthony@chef.io>
