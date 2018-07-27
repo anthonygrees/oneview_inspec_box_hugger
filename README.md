@@ -27,6 +27,7 @@ api_version: 300
 ```
 
 ## Video Demo
+The following video shows the code in action.
 
 [![Alt text](https://img.youtube.com/vi/zjqCyRchq_k/0.jpg)](https://youtu.be/zjqCyRchq_k)
 
