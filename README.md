@@ -28,7 +28,7 @@ api_version: 300
 
 ## Video Demo
 
-[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://youtu.be/zjqCyRchq_k)
+[![Alt text](https://img.youtube.com/vi/zjqCyRchq_k/0.jpg)](https://youtu.be/zjqCyRchq_k)
 
 ## License and Author
 
