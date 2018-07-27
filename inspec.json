@@ -1,0 +1,12 @@
+{
+    "reporter" : {
+        "automate" : {
+            "stdout" : "false",
+            "url" : "https://automate.automate-demo.com/data-collector/v0",
+            "token" : "TDkmC_TTL8h13mk7bDTHX7jzEYA=",
+            "insecure" : true,
+            "node_name" : "OneView_Test",
+            "environment" : "dev"
+        }
+    }
+}
