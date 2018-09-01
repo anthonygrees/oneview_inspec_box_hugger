@@ -21,7 +21,7 @@ inspec oneview help
 ```
 
 ### Set the InSpec-OneView dependency
-You need to reference https://github.com/chef/inspec-oneview
+You need to reference https://github.com/chef/inspec-oneview#create-a-new-profile
 ```
 name: my-profile
 title: My own Oneview profile
@@ -32,7 +32,7 @@ depends:
 ```
 
 ### Set your OneView Credentials
-Create a file called ```.oneview` in the ```/Users/<you>``` directory and add the information below.
+Create a file called ```.oneview``` in the ```/Users/<you>``` directory and add the information below.
 ```bash
 #
 # It actualy uses this file /Users/<yourname>/.oneview ! ! !
@@ -56,7 +56,7 @@ control 'oneview-1' do
     its('vlan_id') { should eq 1 }  end
 end
 ```
-You can find a full list of available resources here - https://github.com/chef/inspec-oneview
+You can find a full list of available resources here - https://github.com/chef/inspec-oneview#available-resources
 
 ## How to execute InSpec Box Hugger
 To run on the command line
