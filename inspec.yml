@@ -8,5 +8,4 @@ summary: An InSpec Compliance Profile
 version: 0.1.0
 depends:
   - name: oneview
-    ##url: https://github.com/chef/inspec-oneview/archive/master.tar.gz
-    path: /Users/anthonyrees/src/cookbooks/inspec-oneview
+    url: https://github.com/chef-partners/inspec-oneview/archive/master.tar.gz
