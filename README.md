@@ -11,13 +11,13 @@ You will need the HPE OneView Plugin - https://github.com/inspec/inspec-hpe-onev
 ```inspec-hpe-oneview``` is a plugin for InSpec and may be installed as follows:
 ```bash
 # install InSpec
-$ gem install inspec
+$  gem install inspec
 ```
 Then install the ```inspec-hpe-oneview``` plugin via ```~/.inspec/plugins``` or a gem build:
 ```bash
 # Build the `inspec-hpe-oneview` then install:
-$ git clone https://github.com/inspec/inspec-hpe-oneview.git && cd inspec-hpe-oneview && gem build *gemspec && gem install *gem
-inspec oneview help
+$  git clone https://github.com/inspec/inspec-hpe-oneview.git && cd inspec-hpe-oneview && gem build *gemspec && gem install *gem
+$  inspec oneview help
 ```
 
 ### b) Set the InSpec-OneView dependency
@@ -53,7 +53,8 @@ control 'oneview-1' do
   describe oneview_ethernet_network(name: 'InSpec-Ethernet-Network') do
     its('type') { should cmp 'ethernet-networkV300' }
     its('ethernet_network_type') { should cmp 'Tagged' }
-    its('vlan_id') { should eq 1 }  end
+    its('vlan_id') { should eq 1 }  
+    end
 end
 ```
 You can find a full list of available resources here - https://github.com/chef/inspec-oneview#available-resources
