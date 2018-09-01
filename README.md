@@ -2,10 +2,10 @@
 
 This example shows the implementation of an InSpec profile that can test HPE OneView.
 
-## Configuration
+## 1. Configuration
 Perform the following configuration
 
-### HPE OneView Plugin
+### a) HPE OneView Plugin
 You will need the HPE OneView Plugin - https://github.com/inspec/inspec-hpe-oneview
 
 ```inspec-hpe-oneview``` is a plugin for InSpec and may be installed as follows:
@@ -20,7 +20,7 @@ git clone https://github.com/inspec/inspec-hpe-oneview.git && cd inspec-hpe-onev
 inspec oneview help
 ```
 
-### Set the InSpec-OneView dependency
+### b) Set the InSpec-OneView dependency
 You need to reference https://github.com/chef/inspec-oneview#create-a-new-profile
 ```
 name: my-profile
@@ -31,7 +31,7 @@ depends:
     url: https://github.com/chef-partners/inspec-oneview/archive/master.tar.gz
 ```
 
-### Set your OneView Credentials
+### c) Set your OneView Credentials
 Create a file called ```.oneview``` in the ```/Users/<you>``` directory and add the information below.
 ```bash
 #
@@ -43,7 +43,7 @@ password: <your_passsword>
 api_version: 300
 ```
 
-### Write your InSpec Controls for OneView
+### d) Write your InSpec Controls for OneView
 Here is an example of an ethernet check
 ```
 control 'oneview-1' do
@@ -58,7 +58,7 @@ end
 ```
 You can find a full list of available resources here - https://github.com/chef/inspec-oneview#available-resources
 
-## How to execute InSpec Box Hugger
+## 2. How to execute InSpec Box Hugger
 To run on the command line
 ```bash
 $  inspec exec .
@@ -69,12 +69,12 @@ $  inspec exec . --json-config inspec.json
 ```
 The A2 reporter is configured in the ```inspec.json``` file
 
-## Video Demo
+## 3. Video Demo
 The following video shows the code in action.
 
 [![Alt text](https://img.youtube.com/vi/zjqCyRchq_k/0.jpg)](https://youtu.be/zjqCyRchq_k)
 
-## License and Author
+## 4. License and Author
 
 * Author:: Anthony Rees <anthony@chef.io>
 
