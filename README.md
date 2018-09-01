@@ -9,20 +9,20 @@ Perform the following configuration
 You will need the HPE OneView Plugin - https://github.com/inspec/inspec-hpe-oneview
 
 ```inspec-hpe-oneview``` is a plugin for InSpec and may be installed as follows:
-```
+```bash
 # install InSpec
-gem install inspec
+$ gem install inspec
 ```
 Then install the ```inspec-hpe-oneview``` plugin via ```~/.inspec/plugins``` or a gem build:
-```
+```bash
 # Build the `inspec-hpe-oneview` then install:
-git clone https://github.com/inspec/inspec-hpe-oneview.git && cd inspec-hpe-oneview && gem build *gemspec && gem install *gem
+$ git clone https://github.com/inspec/inspec-hpe-oneview.git && cd inspec-hpe-oneview && gem build *gemspec && gem install *gem
 inspec oneview help
 ```
 
 ### b) Set the InSpec-OneView dependency
 You need to reference https://github.com/chef/inspec-oneview#create-a-new-profile
-```
+```bash
 name: my-profile
 title: My own Oneview profile
 version: 0.1.0
@@ -45,7 +45,7 @@ api_version: 300
 
 ### d) Write your InSpec Controls for OneView
 Here is an example of an ethernet check
-```
+```bash
 control 'oneview-1' do
   impact 1.0
   title 'Checks that a specific network has been configured correctly'
