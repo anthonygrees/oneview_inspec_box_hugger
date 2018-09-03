@@ -21,8 +21,9 @@ $  inspec oneview help
 ```
 
 ### b) Set the InSpec-OneView dependency
-You need to reference https://github.com/chef/inspec-oneview#create-a-new-profile
-Modify you ```inspec.yml``` to the following:
+You need to reference https://github.com/chef/inspec-oneview#create-a-new-profile.
+
+Modify your ```inspec.yml``` to the following:
 ```bash
 name: my-profile
 title: My own Oneview profile
@@ -34,7 +35,8 @@ depends:
 
 ### c) Set your OneView Credentials
 Create a file called ```.oneview``` in the ```/Users/<yourname>/``` directory and add the information below.
-So you put the following in ```/Users/<yourname>/.oneview```
+
+So you put the following in ```/Users/<yourname>/.oneview``` file:
 ```bash
 #
 # It actualy uses this file /Users/<yourname>/.oneview ! ! !
