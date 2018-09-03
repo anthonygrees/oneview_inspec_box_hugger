@@ -28,7 +28,7 @@ title: My own Oneview profile
 version: 0.1.0
 depends:
   - name: oneview
-    url: https://github.com/chef-partners/inspec-oneview/archive/master.tar.gz
+    url: https://github.com/chef/inspec-oneview/archive/master.tar.gz
 ```
 
 ### c) Set your OneView Credentials
