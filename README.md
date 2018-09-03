@@ -34,13 +34,9 @@ depends:
 ```
 
 ### c) Set your OneView Credentials
-Create a file called ```.oneview``` in the ```/Users/<yourname>/``` directory and add the information below.
+Create a file called ```inspec``` in the ```/Users/<yourname>/.oneview``` or ```/home/<yourname/.oneview``` directory and add the information below.
 
-So you put the following in ```/Users/<yourname>/.oneview``` file:
 ```bash
-#
-# It actualy uses this file /Users/<yourname>/.oneview ! ! !
-#
 url: https://oneview_url
 user: <your_user>
 password: <your_passsword>
